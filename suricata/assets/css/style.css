@@ -1,0 +1,12 @@
+.contenedor {
+  background-color: pink;
+
+  height: 300px;
+}
+
+.contenedor > div {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  color: #fff;
+}
