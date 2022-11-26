@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cabin", sans-serif;
+}
+
+.bg-nav {
+  background-color: #373a3c;
+}
+.navbar-brand {
+  font-family: "Lobster", cursive;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.carousel-indicators {
+  top: 14rem;
+}
+.hr-carousel {
+  margin-top: 80px;
+}
+@media screen and (max-width: 991px) {
+  .carousel {
+    display: none;
+  }
+}
+.underline {
+  display: inline-block;
+  border-bottom-style: solid;
+}
