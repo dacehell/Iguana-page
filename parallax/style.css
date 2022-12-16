@@ -1,0 +1,37 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: aliceblue;
+  font-size: 1.9rem;
+  text-align: center;
+}
+.bg {
+  background-color: black;
+}
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: auto;
+  padding: 32px;
+  height: 50vh;
+}
+
+.center {
+  text-align: center;
+}
+/*efecto parallax*/
+
+.parallax {
+  height: 350px;
+  background-image: url("https://i.pinimg.com/originals/c6/6d/1f/c66d1f48f23f114dfa4485113b7536aa.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}

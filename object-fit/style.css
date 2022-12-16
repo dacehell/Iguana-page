@@ -1,0 +1,46 @@
+body {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  gap: 6px;
+}
+
+.content__img {
+  width: 230px;
+  height: 300px;
+  border: 2px solid purple;
+}
+
+.parrafo {
+  width: 230px;
+  text-align: justify;
+}
+/*object fit*/
+.content__img--fill {
+  object-fit: fill;
+}
+
+.content__img--contain {
+  object-fit: contain;
+}
+
+.content__img--cover {
+  object-fit: cover;
+  object-position: right;
+  transition: object-position 0.3s;
+}
+.content__img--cover:hover {
+  object-position: center;
+  border: 5px solid blue;
+}
+.content__img--none {
+  object-fit: none;
+}
+
+.content__img--scale-down {
+  object-fit: scale-down;
+}

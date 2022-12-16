@@ -7,7 +7,7 @@ $(function () {
 
   $(".underline").dblclick(function () {
     $(this).css({
-      color: "red !important",
+      color: "red",
     });
   });
 });
